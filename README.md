@@ -28,6 +28,11 @@ Navega hasta el directorio donde se encuentra el código del proyecto.
 
 Ejecuta el siguiente comando para iniciar la calculadora de pensiones python main.py
 
+1. Encontrarás una carpeta llamada PensionCalculatorPro dentro de la esta carpeta encontrarás un archivo llamado main.py
+2. Abre  main.py y en la parte super derecha encontraras un triangulo con direccion hacia la derecha, debes darle clic
+3. ⁠Te encontrarás con un menú principal en el cual tendrás 2 opciones. La primera sera Calcular pension, la segunda salir
+4. ⁠una vez le des en opción 1 él te pedirá los datos con los cuales se harán los cálculos de pensión mensual esperada, pensión anual esperada y ahorro pension esperado
+
 ## ¿Cómo está hecho?
 
 El proyecto PensionCalculatorPro sigue una arquitectura simple y modular, con una separación clara entre la lógica del negocio, la interfaz de usuario y las pruebas unitarias. A continuación aquí está una descripción más detallada de la arquitectura, las bibliotecas utilizadas y las dependencias:
