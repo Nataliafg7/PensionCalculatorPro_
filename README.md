@@ -20,13 +20,6 @@ El propósito de la calculadora de pensiones es permitir a los usuarios planific
 Antes de ejecutar este proyecto, asegúrate de tener instalado Python en tu sistema. Puedes descargarlo e instalarlo desde python.org.
 
 ### Ejecución:
-Descarga el archivo del proyecto o clona el repositorio desde el cual obtuviste el código.
-
-Abre una terminal o línea de comandos en tu sistema operativo.
-
-Navega hasta el directorio donde se encuentra el código del proyecto.
-
-Ejecuta el siguiente comando para iniciar la calculadora de pensiones python main.py
 
 1. Encontrarás una carpeta llamada PensionCalculatorPro dentro de la esta carpeta encontrarás un archivo llamado main.py
 2. Abre  main.py y en la parte super derecha encontraras un triangulo con direccion hacia la derecha, debes darle clic
