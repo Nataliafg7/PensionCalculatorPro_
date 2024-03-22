@@ -1,6 +1,6 @@
 import unittest
 
-# Definición de excepciones
+ """ Definición de excepciones hace posible control y manejar errores de manera estructurada y facil de entender """
 class edad_negativa(Exception):
     """Excepción lanzada cuando la edad es negativa."""
 
@@ -29,9 +29,9 @@ class sexo_invalido(Exception):
     """Excepción lanzada cuando el sexo no es 'mujer' o 'hombre'."""
 
 def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorro_actual, rentabilidad_fondo, tasa_administracion):
-    """Calcula la pensión basada en diversos factores.
+    """Calcula la pensión basada en diversos factores. """
 
-    Args:
+    Argumentos:
         edad_actual (int): Edad actual de la persona.
         sexo (str): Sexo de la persona, debe ser 'mujer' o 'hombre'.
         salario_actual (float): Salario actual de la persona.
@@ -40,7 +40,7 @@ def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorr
         rentabilidad_fondo (float): Rentabilidad anual del fondo de pensiones.
         tasa_administracion (float): Tasa de administración del fondo de pensiones.
 
-    Returns:
+    Retorna:
         tuple: Una tupla con el valor del ahorro pensional esperado, la pensión anual y la pensión mensual.
     """
     # Variables constantes
