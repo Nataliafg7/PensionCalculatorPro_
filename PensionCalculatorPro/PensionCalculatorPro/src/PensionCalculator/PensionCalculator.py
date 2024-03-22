@@ -33,9 +33,9 @@ class sexo_invalido(Exception):
    """Calcula la pensión basada en diversos factores, como la edad, el sexo, el salario actual, las semanas laboradas, el ahorro actual, la rentabilidad del fondo de pensiones y la tasa de administración para asi mostrarle al usuario el calculo de su ahorro, pension mensual y anual.'."""
 
 def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorro_actual, rentabilidad_fondo, tasa_administracion):
-    """Calcula la pensión basada en diversos factores. """
+    """Calcula la pensión basada en diversos factores. 
  
-"""Argumentos para pasar  los datos de entrada a la función  """
+Argumentos para pasar  los datos de entrada a la función  
     Argumentos:
         edad_actual (int): Edad actual de la persona.
         sexo (str): Sexo de la persona, debe ser 'mujer' o 'hombre'.
