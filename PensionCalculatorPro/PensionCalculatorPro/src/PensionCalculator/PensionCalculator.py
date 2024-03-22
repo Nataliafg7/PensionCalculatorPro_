@@ -1,6 +1,8 @@
 import unittest
+ """
+Definición de excepciones hace posible control y manejar errores de manera estructurada y facil de entender 
+    """
 
- """ Definición de excepciones hace posible control y manejar errores de manera estructurada y facil de entender """
 class edad_negativa(Exception):
     """Excepción lanzada cuando la edad es negativa."""
 
@@ -50,7 +52,7 @@ def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorr
     rentabilidad_maxima = 100
     cero = 0
 
-    # Control de errores
+    # Control de errores: para garantizar que el programa funcione de manera confiable ande situaciones inesperadas e incorrectas, facilitando la identificacion y correcion del problema
     if edad_actual < cero:
         raise edad_negativa("La edad no puede ser negativa")
 
@@ -85,7 +87,7 @@ def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorr
         print("Advertencia:", e)
 
     """
-Calculos para el valor de la pension
+Formulas para calcular la pensión
     """
     años_restantes = edad_jubilacion_mujer - edad_actual if sexo == "mujer" else edad_jubilacion_hombre - edad_actual
 
