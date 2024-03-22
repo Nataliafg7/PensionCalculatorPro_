@@ -18,12 +18,13 @@ El propósito de la calculadora de pensiones es permitir a los usuarios planific
 ### Prerequisitos
 
 Antes de ejecutar este proyecto, asegúrate de tener instalado Python en tu sistema. Puedes descargarlo e instalarlo desde python.org.
-Descarga Visual Studio Code
+Descarga Visual Studio Code puedes hacerlo en esta direccion https://code.visualstudio.com/download
+
 ### Ejecución:
 
-1.Abre Visual Studio Code, abre la carpeta que contiene el programa, encontrarás una carpeta llamada PensionCalculatorPro dentro de la esta carpeta encontrarás un archivo llamado main.py
-2. Abre  main.py y en la parte super derecha encontraras un triangulo el cual al pasar el cursor por este encontrar el mensaje Run Python File, debes darle clic
-3. ⁠Te encontrarás con un menú principal en el cual tendrás 2 opciones. La primera sera Calcular pension, la segunda salir
+1.Abre Visual Studio Code, abre la carpeta que contiene el programa la cual se llama PensionCalculatorPro dentro de la esta carpeta encontrarás un archivo llamado main.py
+2. Abre  main.py y en la parte super derecha encontraras un triangulo el cual al pasar el cursor por este encontrarás el mensaje Run Python File, debes darle clic
+3. ⁠Posteriormente encontrarás con un menú principal en el cual tendrás 2 opciones. La primera sera Calcular pension, la segunda salir
 4. ⁠una vez le des en opción 1 él te pedirá los datos con los cuales se harán los cálculos de pensión mensual esperada, pensión anual esperada y ahorro pension esperado
 
 ## ¿Cómo está hecho?
