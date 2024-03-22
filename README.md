@@ -26,7 +26,7 @@ Abre una terminal o línea de comandos en tu sistema operativo.
 
 Navega hasta el directorio donde se encuentra el código del proyecto.
 
-Ejecuta el siguiente comando para iniciar la calculadora de pensiones python PensionCalculatorPro.py
+Ejecuta el siguiente comando para iniciar la calculadora de pensiones python main.py
 
 ## ¿Cómo está hecho?
 
