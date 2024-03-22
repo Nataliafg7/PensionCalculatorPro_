@@ -3,8 +3,8 @@
 # PensionCalculatorPro
 
 ## Por:
-Juliana Casas Ramírez
-Natalia Florez Guzmán
+-Juliana Casas Ramírez
+-Natalia Florez Guzmán
 
 ## ¿Qué es?
 
