@@ -32,7 +32,7 @@ class sexo_invalido(Exception):
 
 def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorro_actual, rentabilidad_fondo, tasa_administracion):
     """Calcula la pensión basada en diversos factores. """
-
+ """Argumentos para pasar  los datos de entrada a la función  """
     Argumentos:
         edad_actual (int): Edad actual de la persona.
         sexo (str): Sexo de la persona, debe ser 'mujer' o 'hombre'.
@@ -87,7 +87,7 @@ def calcular_pension(edad_actual, sexo, salario_actual, semanas_laboradas, ahorr
         print("Advertencia:", e)
 
     """
-Formulas para calcular la pensión
+Formulas para calcular la pensión, esta incluye el valor ahorro pensional esperado, el valor de la pension anual y el valor pension mensual
     """
     años_restantes = edad_jubilacion_mujer - edad_actual if sexo == "mujer" else edad_jubilacion_hombre - edad_actual
 
